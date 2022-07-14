@@ -28,3 +28,5 @@ function update() {
     document.getElementById("score").style.left = x1 + "px"
     document.getElementById("snake").style.left = x2 + "px"
 }
+
+setInterval(update, 200)
