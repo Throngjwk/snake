@@ -12,3 +12,27 @@ h4 {
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+button#left {
+    background-color: turquoise;
+    cursor: pointer;
+    overflow-x: inherit;
+}
+
+button#right {
+    background-color: turquoise;
+    cursor: pointer;
+    overflow-x: inherit;
+}
+
+button#down {
+    background-color: turquoise;
+    cursor: pointer;
+    overflow-x: inherit;
+}
+
+button#up {
+    background-color: turquoise;
+    cursor: pointer;
+    overflow-x: inherit;
+}
