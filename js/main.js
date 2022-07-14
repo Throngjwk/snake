@@ -5,6 +5,7 @@ var x1 = 0;
 var y1 = 0;
 var x2 = 0;
 var y2 = 0;
+let cookies = 0;
 
 document.getElementById("left").onclick = () => {
     x2 += 5
@@ -27,6 +28,10 @@ function update() {
     document.getElementById("snake").style.top = y2 + "px"
     document.getElementById("score").style.left = x1 + "px"
     document.getElementById("snake").style.left = x2 + "px"
+}
+
+document.getElementById("click").onclick = () => {
+    cookies += 1
 }
 
 setInterval(update, 200)
